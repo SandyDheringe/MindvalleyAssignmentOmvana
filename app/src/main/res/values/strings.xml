@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MV Demo</string>
+    <string name="str_cache_cleared">Cache cleared</string>
+    <string name="mindvalley">Mindvalley</string>
+    <string name="likes">Likes</string>
+    <string name="clear_cache">Clear Cache ?</string>
+    <string name="clear_cache_description">Do you want to clear cache and refresh the Pinboard ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cache_cleared">Cache cleared</string>
+    <string name="clicked_by">Click by %s</string>
+    <string name="network_error">Please check internet connection</string>
+    <string name="str_error_loading_user">Error loading user details. Please try again</string>
+    <string name="str_img_dim">Image Dimensions - %d x %d</string>
+    <string name="str_creattion_date">Creation Date - %s</string>
+    <string name="str_img_category">Image Category - %s</string>
+</resources>
