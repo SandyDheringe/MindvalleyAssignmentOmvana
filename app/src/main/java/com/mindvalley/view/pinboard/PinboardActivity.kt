@@ -7,6 +7,11 @@ import com.mindvalley.R
 import com.mindvalley.common.FragmentInstanceHandler
 import com.mindvalley.view.pinboard.pinboardlist.PinboardListFragment
 
+/**
+ * Pinboard activity to show pin wall
+ *
+ * @author Sandeep
+ */
 class PinboardActivity : AppCompatActivity(), FragmentInstanceHandler
 {
     override fun onCreate(savedInstanceState: Bundle?)
