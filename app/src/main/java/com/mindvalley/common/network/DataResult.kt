@@ -10,7 +10,7 @@ data class DataResult<T>(var result: T? = null, var error: Throwable? = null, va
         fun <T> setError(error: Throwable?, httpStatusCode: Int) =
             DataResult<T>(error = error,
                 networkStatus = NetworkStatus.ERROR, statusCode = httpStatusCode)
-        fun <T> setError(error: Throwable) = DataResult<T>(error = error,
+        fun <T> setError(error: Throwable?) = DataResult<T>(error = error,
             networkStatus = NetworkStatus.ERROR)
         fun <T> setResult(result: T?) = DataResult<T>(result = result,
             networkStatus = NetworkStatus.SUCCESS)

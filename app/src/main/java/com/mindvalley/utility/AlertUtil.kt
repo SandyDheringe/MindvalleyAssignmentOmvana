@@ -30,10 +30,10 @@ object AlertUtil
         alertDialogBuilder.setTitle(params[0])
         alertDialogBuilder.setMessage(params[1])
         alertDialogBuilder.setCancelable(false)
-        alertDialogBuilder.setPositiveButton(params[2]) { dialog, which ->
+        alertDialogBuilder.setPositiveButton(params[2]) { _, _ ->
             dialogListener?.onPositiveAction(dialogID, null)
         }
-        alertDialogBuilder.setNegativeButton(params[3]) { dialog, which ->
+        alertDialogBuilder.setNegativeButton(params[3]) { _, _ ->
             dialogListener?.onNegativeAction(dialogID, null)
         }
         alertDialogBuilder.create().show()

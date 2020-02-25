@@ -39,7 +39,9 @@ class UnsplashAccountFragment : Fragment()
         val bundle = this.arguments
         if(bundle != null)
         {
-            webURL = bundle.getString(ARG_URL)
+            //checked if link with https work not and then updated it for android 8 above
+            // else domain exception would have needed to load http url
+            webURL = bundle.getString(ARG_URL)?.replace("http","https")
         }
     }
 
